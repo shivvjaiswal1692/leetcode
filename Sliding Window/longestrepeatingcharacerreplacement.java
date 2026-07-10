@@ -1,3 +1,14 @@
+/*  LC - 424 Longest Repeating Character Replacement
+    Level - Medium
+    Pattern - Sliding Window
+    Approach - A window is VALID if:
+                (window size) - (count of most frequent char) <= k
+                Because: characters to replace = window size - most frequent char count
+                If that's <= k, we can make the whole window one character
+    Time Complexity - O(n)
+    Space Complexity - O(1)
+*/
+
 import java.util.HashMap;
 
 public class longestrepeatingcharacerreplacement {
