@@ -9,7 +9,7 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 */
 
-class Solution {
+public class twosumii{
     public int[] twoSum(int[] numbers, int target) {
         int left = 0, right = numbers.length - 1;
 
