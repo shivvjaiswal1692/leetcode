@@ -6,7 +6,7 @@
     Space Complexity - O(1)
 */
 
-public class MinSubarraylen {
+public class minSubArraylen {
     public int minSubArrayLen(int target, int[] nums) {
         int left = 0;
         int sum = 0;
