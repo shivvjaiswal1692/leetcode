@@ -1,0 +1,21 @@
+/*  LC - 141
+    Linked List Cycle
+    Level - Easy
+    Approach - Slow and Fast Pointer
+*/
+
+package Slow and Fast Pointer;
+
+public class linkedlistcycle {
+    public boolean hasCycle(ListNode head){
+        ListNode slow = head;
+        ListNode fast = head;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                return true;
+            }
+        }
+        return false;
+    }
