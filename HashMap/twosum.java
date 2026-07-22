@@ -11,7 +11,7 @@ Space Complexity: O(n)
 
 import java.util.HashMap;
 
-class Solution {
+class twosum {
     public int[] twoSum(int[] nums, int target) {
 
         HashMap<Integer, Integer> map = new HashMap<>();
